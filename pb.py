@@ -77,86 +77,86 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "╔═══════════════" + "\n" + \
-                  "╠BY PHU SELF BOT LINE" + "\n" + \
+                  "╠ SELF BOT LINE" + "\n" + \
                   "║" + "\n" + \
-                  "╠══✪〘 Help Message 〙✪══" + "\n" + \
+                  "╠══✪〘 ใบคำสั่ง 〙✪══" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Help 〙✪════════" + "\n" + \
-                  "╠➥ Help" + "\n" + \
-                  "╠➥ Translate" + "\n" + \
-                  "╠➥ Texttospeech" + "\n" + \
+                  "╠✪〘 เมนู 〙✪════════" + "\n" + \
+                  "╠➥ คำสั่ง" + "\n" + \
+                  "╠➥ คำสั่ง2" + "\n" + \
+                  "╠➥ คำสั่ง3" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Status 〙✪════════" + "\n" + \
-                  "╠➥ Restart" + "\n" + \
-                  "╠➥ Runtime" + "\n" + \
-                  "╠➥ Speed" + "\n" + \
-                  "╠➥ Status" + "\n" + \
-                  "╠➥ About" + "\n" + \
+                  "╠✪〘 สเตตัส 〙✪════════" + "\n" + \
+                  "╠➥ รีบอท" + "\n" + \
+                  "╠➥ ออน" + "\n" + \
+                  "╠➥ สปีด" + "\n" + \
+                  "╠➥ เชคค่า" + "\n" + \
+                  "╠➥ ข้อมูล" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Settings 〙✪═══════" + "\n" + \
-                  "╠➥ AutoAdd「On/Off」" + "\n" + \
-                  "╠➥ AutoJoin「On/Off」" + "\n" + \
-                  "╠➥ AutoLeave「On/Off」" + "\n" + \
-                  "╠➥ AutoRead「On/Off」" + "\n" + \
-                  "╠➥ CheckSticker「On/Off」" + "\n" + \
-                  "╠➥ DetectMention「On/Off」" + "\n" + \
+                  "╠✪〘 ตั้งค่า 〙✪═══════" + "\n" + \
+                  "╠➥ เปิด/ปิดแอด" + "\n" + \
+                  "╠➥ เปิด/ปิดแชท" + "\n" + \
+                  "╠➥ เปิด/ปิดเข้า" + "\n" + \
+                  "╠➥ เปิด/ปิดอ่าน" + "\n" + \
+                  "╠➥ เปิด/ปิดติ้ก" + "\n" + \
+                  "╠➥ เปิด/ปิดแทค" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Self 〙✪═════════" + "\n" + \
+                  "╠✪〘 เซลบอท 〙✪═════════" + "\n" + \
                   "╠➥ Me" + "\n" + \
-                  "╠➥ MyMid" + "\n" + \
-                  "╠➥ MyName" + "\n" + \
-                  "╠➥ MyBio" + "\n" + \
-                  "╠➥ MyPicture" + "\n" + \
-                  "╠➥ MyVideoProfile" + "\n" + \
-                  "╠➥ MyCover" + "\n" + \
-                  "╠➥ StealContact「Mention」" + "\n" + \
-                  "╠➥ StealMid「Mention」" + "\n" + \
-                  "╠➥ StealName「Mention」" + "\n" + \
-                  "╠➥ StealBio「Mention」" + "\n" + \
-                  "╠➥ StealPicture「Mention」" + "\n" + \
-                  "╠➥ StealVideoProfile「Mention」" + "\n" + \
-                  "╠➥ StealCover「Mention」" + "\n" + \
-                  "╠➥ CloneProfile「Mention」" + "\n" + \
-                  "╠➥ RestoreProfile" + "\n" + \
+                  "╠➥ ไอดี" + "\n" + \
+                  "╠➥ ชื่อ" + "\n" + \
+                  "╠➥ ตัส" + "\n" + \
+                  "╠➥ รูป" + "\n" + \
+                  "╠➥ ดิส" + "\n" + \
+                  "╠➥ ปก" + "\n" + \
+                  "╠➥ คท @" + "\n" + \
+                  "╠➥ ไอดี @" + "\n" + \
+                  "╠➥ ชื่อ @" + "\n" + \
+                  "╠➥ ตัส @" + "\n" + \
+                  "╠➥ รูป @" + "\n" + \
+                  "╠➥ ดิส @" + "\n" + \
+                  "╠➥ ปก @" + "\n" + \
+                  "╠➥ กอป @" + "\n" + \
+                  "╠➥ คืนร่าง" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Group 〙✪════════" + "\n" + \
-                  "╠➥ GroupCreator" + "\n" + \
-                  "╠➥ GroupId" + "\n" + \
-                  "╠➥ GroupName" + "\n" + \
-                  "╠➥ GroupPicture" + "\n" + \
-                  "╠➥ GroupTicket" + "\n" + \
-                  "╠➥ GroupTicket「On/Off」" + "\n" + \
-                  "╠➥ GroupList" + "\n" + \
-                  "╠➥ GroupMemberList" + "\n" + \
-                  "╠➥ GroupInfo" + "\n" + \
-                  "╠➥ Kill「Mention」" + "\n" + \
-                  "╠➥ KickAllMember"+ "\n" + \
+                  "╠✪〘 กลุ่ม 〙✪════════" + "\n" + \
+                  "╠➥ คนสร้างห้อง" + "\n" + \
+                  "╠➥ ไอดีห้อง" + "\n" + \
+                  "╠➥ ชื่อห้อง" + "\n" + \
+                  "╠➥ รูปห้อง" + "\n" + \
+                  "╠➥ ลิ้ง" + "\n" + \
+                  "╠➥ เปิด/ปิดลิ้ง" + "\n" + \
+                  "╠➥ กลุ่ม" + "\n" + \
+                  "╠➥ เพื่อน" + "\n" + \
+                  "╠➥ ข้อมูลห้อง" + "\n" + \
+                  "╠➥ แปลไทย" + "\n" + \
+                  "╠➥ พูด"+ "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Special 〙✪═══════" + "\n" + \
+                  "╠✪〘 ลูกเล่นเล็กๆน้อยๆ 〙✪═══════" + "\n" + \
                   "╠➥ Mimic「On/Off」" + "\n" + \
                   "╠➥ MimicList" + "\n" + \
                   "╠➥ MimicAdd「Mention」" + "\n" + \
                   "╠➥ MimicDel「Mention」" + "\n" + \
                   "╠➥ Mention" + "\n" + \
-                  "╠➥ Lurking「Oɴ/Off/Reset」" + "\n" + \
-                  "╠➥ Lurking" + "\n" + \
+                  "╠➥ แอบ" + "\n" + \
+                  "╠➥ ส่อง" + "\n" + \
                   "║" + "\n" + \
                   "╠✪〘 Media 〙✪════════" + "\n" + \
-                  "╠➥ Kalender" + "\n" + \
+                  "╠➥ เวลา" + "\n" + \
                   "╠➥ CheckDate「Date」" + "\n" + \
                   "╠➥ InstagramInfo「UserName」" + "\n" + \
                   "╠➥ InstagramPost「UserName」" + "\n" + \
-                  "╠➥ SearchYoutube「Search」" + "\n" + \
-                  "╠➥ SearchMusic「Search」" + "\n" + \
+                  "╠➥ ยูทูป" + "\n" + \
+                  "╠➥ เพลง" + "\n" + \
                   "╠➥ SearchLyric「Search」" + "\n" + \
-                  "╠➥ SearchImage「Search」" + "\n" + \
+                  "╠➥ รูป" + "\n" + \
                   "╠➥ ScreenshootWebsite「LinkUrl」" + "\n" + \
                   "║" + "\n" + \
                   "╚═〘 BY PHU SELF BOT LINE 〙"
     return helpMessage
     
 def helptexttospeech():
-    helpTextToSpeech =   "╔══[ BY PHU SELF BOT LINE]" + "\n" + \
+    helpTextToSpeech =   "╔══[ คำสั่งที่ 2 ]" + "\n" + \
                          "╠ af : Afrikaans" + "\n" + \
                          "╠ sq : Albanian" + "\n" + \
                          "╠ ar : Arabic" + "\n" + \
@@ -215,7 +215,7 @@ def helptexttospeech():
     return helpTextToSpeech
     
 def helptranslate():
-    helpTranslate =    "╔══[ BY PHU SELF BOT LINE ]" + "\n" + \
+    helpTranslate =    "╔══[ คำสั่งที่ 3 ]" + "\n" + \
                        "╠ af : afrikaans" + "\n" + \
                        "╠ sq : albanian" + "\n" + \
                        "╠ am : amharic" + "\n" + \
@@ -365,10 +365,10 @@ def lineBot(op):
                 if text.lower() == 'คำสั่ง':
                     helpMessage = helpmessage()
                     nadya.sendMessage(to, str(helpMessage))
-                elif text.lower() == 'คำสั่งพูด':
+                elif text.lower() == 'คำสั่ง2':
                     helpTextToSpeech = helptexttospeech()
                     nadya.sendMessage(to, str(helpTextToSpeech))
-                elif text.lower() == 'คำสั่งแปลภาษา':
+                elif text.lower() == 'คำสั่ง3':
                     helpTranslate = helptranslate()
                     nadya.sendMessage(to, str(helpTranslate))
 #==============================================================================#
