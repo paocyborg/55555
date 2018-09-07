@@ -144,13 +144,13 @@ def helpmessage():
                   "╠✪〘 Media 〙✪════════" + "\n" + \
                   "╠➥ เวลา" + "\n" + \
                   "╠➥ CheckDate「Date」" + "\n" + \
-                  "╠➥ InstagramInfo「UserName」" + "\n" + \
-                  "╠➥ InstagramPost「UserName」" + "\n" + \
+                  "╠➥ หาไอจี「ใส่ชื่อไอจี」" + "\n" + \
+                  "╠➥ ไอจีโพส「ใส่ชื่อไอจี」" + "\n" + \
                   "╠➥ ยูทูป" + "\n" + \
                   "╠➥ เพลง" + "\n" + \
                   "╠➥ SearchLyric「Search」" + "\n" + \
                   "╠➥ รูป" + "\n" + \
-                  "╠➥ ScreenshootWebsite「LinkUrl」" + "\n" + \
+                  "╠➥ เชคเว็ป「ใส่ลิ้ง」" + "\n" + \
                   "║" + "\n" + \
                   "╚═〘 BY PHU SELF BOT LINE 〙"
     return helpMessage
@@ -377,7 +377,7 @@ def lineBot(op):
                     nadya.sendMessage(to, "กำลังโหลดความเร็วของบอท...")
                     elapsed_time = time.time() - start
                     nadya.sendMessage(to,format(str(elapsed_time)))
-                elif text.lower() == 'restart':
+                elif text.lower() == 'รีบอท':
                     nadya.sendMessage(to, "Restarting")
                     time.sleep(5)
                     nadya.sendMessage(to, "Restart Sukses")
@@ -634,7 +634,7 @@ def lineBot(op):
                     if settings["mimic"]["target"] == {}:
                         nadya.sendMessage(msg.to,"Tidak Ada Target")
                     else:
-                        mc = "╔══[ Mimic List ]"
+                        mc = "╔══[ รายชื่อคนที่เราตั้งล่อเลียนไว้ ]"
                         for mi_d in settings["mimic"]["target"]:
                             mc += "\n╠ "+nadya.getContact(mi_d).displayName
                         nadya.sendMessage(msg.to,mc + "\n╚══[ Finish ]")
@@ -719,10 +719,10 @@ def lineBot(op):
                     ret_ += "\n╚══[ จุ๊ฟๆ ]"
                     nadya.sendMessage(to, str(ret_))
                     nadya.sendImageWithURL(to, path)
-                elif text.lower() == 'เพื่อน':
+                elif text.lower() == 'สมาชิก':
                     if msg.toType == 2:
                         group = nadya.getGroup(to)
-                        ret_ = "╔══[ รายชื่อเพื่อนทั้งหมด ]"
+                        ret_ = "╔══[ รายชื่อสมาชิกทั้งหมด ]"
                         no = 0 + 1
                         for mem in group.members:
                             ret_ += "\n╠ {}. {}".format(str(no), str(mem.displayName))
