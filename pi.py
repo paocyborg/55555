@@ -340,6 +340,8 @@ def helpset():
 🌪แอด
 🌪บอท
 🌪/ลบรัน
+🌪เขย่า
+🌪ยกค้าง
 🌪ผส
 🌪เพื่อน
 🌪เชคดำ
@@ -1283,11 +1285,11 @@ def lineBot(op):
                             msg.text = None
                             msg.contentMetadata = {'mid': userData.mid}
                             line.sendMessage(msg.to,text=None,contentMetadata = {'mid': userData.mid},contentType = 13)
-                elif "|" in msg.text:
+                elif "เขย่า" in msg.text:
                     spl = msg.text.split("|")
                     if spl[len(spl)-1] == "":
                         line.sendText(msg.to,"กดที่นี่เพื่อเขย่าข้อความด้านบน:\nline://nv/chatMsg?chatId="+msg.to+"&messageId="+msg.id)	
-                elif ".denyall" in msg.text.lower():
+                elif "ยกค้าง" in msg.text.lower():
                     spl = re.split(".denyall",msg.text,flags=re.IGNORECASE)
                     if spl[0] == "":
                         spl[1] = spl[1].strip()
