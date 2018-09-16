@@ -256,144 +256,154 @@ def sendMessageWithMention(to, lineMID):
         logError(error)
  
 def myhelp():
-    myHelp = """〘byphu 〙 
-🇹🇭คำสั่ง=คำสั่ง
-🇹🇭คำสั่ง2=คำสั่งเชล
-🇹🇭คำสั่ง3=คำสั่งกับแทค
-🇹🇭คำสั่ง4=คำสั่งตั้งค่า
-🇹🇭คำสั่ง5=คำสั่งค้นหา
-🇹🇭คำสั่ง6=คำสั่งกลุ่ม
-🇹🇭คำสั่ง7=คำสั่งเลียนแบบ
-🇹🇭คำสั่ง8=คำสั่งล่องหน
-〘byphu 〙"""
+    myHelp = """╔〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙〙 
+╠🇹🇭คำสั่ง=คำสั่ง
+╠🇹🇭คำสั่ง2=คำสั่งเชล
+╠🇹🇭คำสั่ง3=คำสั่งกับแทค
+╠🇹🇭คำสั่ง4=คำสั่งตั้งค่า
+╠🇹🇭คำสั่ง5=คำสั่งค้นหา
+╠🇹🇭คำสั่ง6=คำสั่งกลุ่ม
+╠🇹🇭คำสั่ง7=คำสั่งเลียนแบบ
+╠🇹🇭คำสั่ง8=คำสั่งล่องหน
+╚〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
     return myHelp
 
 def listgrup():
-    listGrup =  """〘คำสั่งตั้งค่า〙
-🌠เปิดเข้า ➠ เข้ากลุ่มออโต้
-🌠ปิดเข้า ➠ ปิดเข้ากลุ่มออโต้
-🌠เปิดบล็อค ➠ ออโต้บล็อค
-🌠ปิดบล็อค ➠ ปิดออโต้บล็อค
-🌠เปิดออก ➠ ออกแชทรวม
-🌠ปิดออก ➠ ปิดออกแชทรวม
-🌠เปิดอ่าน ➠ อ่านออโต้
-🌠ปิดอ่าน ➠ ปิดอ่านออโต้
-🌠เปิดแทค ➠ ตอบกลับคนแทค
-🌠ปิดแทค ➠ ปิดตอบกลับคนแทค
-🌠เปิดแทค2 ➠ แทคส่งรูป
-🌠ปิดแทค2 ➠ ปิดแทคส่งรูป
-🌠เปิดเชคติ้ก ➠ ดูลิ้งสติ้กเก้อ
-🌠ปิดเชคติ้ก ➠ ปิดดูลิ้งสติ้กเก้อ
-🌠เปิดดูคนอ่าน ➠ จับคนอ่าน
-🌠ปิดดูคนอ่าน ➠ ปิดจับคนอ่าน
-🌠เปิดข้อมูล ➠ เปิดอ่านmid  
-🌠ปิดข้อมูล ➠ ปิดอ่านmid  
-🌠เปิดลิ้ง ➠ ดูลิ้งโพส
-🌠ปิดลิ้ง ➠ ปิดดูลิ้งโพส
-🌠ตั้งเข้า:👉ตั้งข้อความต้อนเข้า
-🌠ตั้งออก:👉 ตั้งข้อความต้อนออก
-🌠ตั้งแทค:👉 ตั้งกล่าวถึงคนแทค
-🌠เช็คเข้า 👉 เช็คต้อนรับคนเข้า
-🌠เช็คออก 👉 เช็คบอกลาคนออก
-🌠เช็คแทค 👉 เช็คแทค
-🌠ต้อนรับ  on👉 เปิดต้อนรับกับออก
-🌠ต้อนรับ  off👉 ปิดต้อนรับกับออก"""
+    listGrup =  """╔════〘คำสั่งตั้งค่า〙════
+╠เปิดเข้า ➠ เข้ากลุ่มออโต้
+╠เปิดเตะแทค ➠ เปิดการเตะคนที่แทคเรา
+╠ปิดเตะแทค ➠ ปิดการเตะคนที่แทคเรา
+╠ปิดเข้า ➠ ปิดเข้ากลุ่มออโต้
+╠เปิดบล็อค ➠ ออโต้บล็อค
+╠ปิดบล็อค ➠ ปิดออโต้บล็อค
+╠เปิดออก ➠ ออกแชทรวม
+╠ปิดออก ➠ ปิดออกแชทรวม
+╠เปิดอ่าน ➠ อ่านออโต้
+╠ปิดอ่าน ➠ ปิดอ่านออโต้
+╠เปิดแทค ➠ ตอบกลับคนแทค
+╠ปิดแทค ➠ ปิดตอบกลับคนแทค
+╠เปิดแทค2 ➠ แทคส่งรูป
+╠ปิดแทค2 ➠ ปิดแทคส่งรูป
+╠เปิดเชคติ้ก ➠ ดูลิ้งสติ้กเก้อ
+╠ปิดเชคติ้ก ➠ ปิดดูลิ้งสติ้กเก้อ
+╠เปิดดูคนอ่าน ➠ จับคนอ่าน
+╠ปิดดูคนอ่าน ➠ ปิดจับคนอ่าน
+╠เปิดข้อมูล ➠ เปิดอ่านmid  
+╠ปิดข้อมูล ➠ ปิดอ่านmid  
+╠เปิดลิ้ง ➠ ดูลิ้งโพส
+╠ปิดลิ้ง ➠ ปิดดูลิ้งโพส
+╠ตั้งเข้า:👉ตั้งข้อความต้อนเข้า
+╠ตั้งออก:👉 ตั้งข้อความต้อนออก
+╠ตั้งแทค:👉 ตั้งกล่าวถึงคนแทค
+╠เช็คเข้า 👉 เช็คต้อนรับคนเข้า
+╠เช็คออก 👉 เช็คบอกลาคนออก
+╠เช็คแทค 👉 เช็คแทค
+╠ต้อนรับ  on👉 เปิดต้อนรับกับออก
+╠ต้อนรับ  off👉 ปิดต้อนรับกับออก
+╚══〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙══"""
     return listGrup
 
 def socmedia():
     socMedia = """〘คำสั่งแทค〙
-⭐คทแทค ➠ แทคคนที่จะเอาคท    
-⭐มิดแทค  ➠ ลงmidคนอื่น
-⭐ชื่อแทค ➠ ลงชื่อคนอื่น
-⭐ตัสแทค ➠ ลงตัสคนอื่น
-⭐ดิสแทค  ➠ ลงดิสคนอื่น
-⭐ปก แทค ➠ ลงปกคนอื่น
-⭐วีดีโอ แทค ➠ ลงวีดีโอปกคนอื่น
-⭐ก็อป แทค ➠ ก็อปปกคนอืน
-⭐ข้อมูล แทค  ➠ ดูชื่อดูตัสดูmidดู คท ดูดิส
-⭐ไป แทค  ➠ เตะละเชิญกลับ
-⭐เตะ แทค ➠ เตะด้วยแทค
-⭐จุก แทค  ➠ เตะกลบแชท
-⭐แบน แทค ➠ แทคคนจะลงดำ"""
+⭐คท @ ➠ แทคคนที่จะเอาคท    
+⭐มิด @  ➠ ลงmidคนอื่น
+⭐ชื่อ @ ➠ ลงชื่อคนอื่น
+⭐ตัส @ ➠ ลงตัสคนอื่น
+⭐ดิส @  ➠ ลงดิสคนอื่น
+⭐ปก @ ➠ ลงปกคนอื่น
+⭐วีดีโอ @ ➠ ลงวีดีโอปกคนอื่น
+⭐ก็อป @ ➠ ก็อปปกคนอืน
+⭐ข้อมูล @  ➠ ดูชื่อดูตัสดูmidดู คท ดูดิส
+⭐ไป @  ➠ เตะละเชิญกลับ
+⭐เตะ @ ➠ เตะด้วยแทค
+⭐จุก @  ➠ เตะกลบแชท
+⭐แบน @ ➠ แทคคนจะลงดำ
+〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
     return socMedia
     
 def helpset():
-    helpSet = """〘คำสั่งเชล〙
-🌪คท
-🌪มิด
-🌪ชื่อ
-🌪ตัส
-🌪ดิส
-🌪ปก
-🌪วีดีโอ
-🌪กลับ
-🌪เงี่ยน
-🌪แปล
-🌪เทส
-🌪เปิดหมด
-🌪ปิดหมด
-🌪สปีด
-🌪โทร
-🌪สแปม
-🌪รีบอท
-🌪ออน
-🌪แอด
-🌪บอท
-🌪/ลบรัน
-🌪เขย่า
-🌪ยกค้าง
-🌪ผส
-🌪เพื่อน
-🌪เชคดำ
-🌪ล้างดำ
-🌪เทศบาลมา
-🌪ดับ
-🌪ชื่อ: ข้อความ ➠เปลี่ยนชื่อ
-🌪ตัส: ข้อความ ➠เปลี่ยนตัส"""
+    helpSet = """╔══〘คำสั่งเชล〙══
+╠🔸คท
+╠🔸มิด
+╠🔸ชื่อ
+╠🔸ตัส
+╠🔸ดิส
+╠🔸ปก
+╠🔸วีดีโอ
+╠🔸กลับ
+╠🔸เงี่ยน
+╠🔸แปล
+╠🔸เทส
+╠🔸เปิดหมด
+╠🔸เปลี่ยนดิส
+╠🔸ปิดหมด
+╠🔸สปีด
+╠🔸โทร
+╠🔸สแปม
+╠🔸รีบอท
+╠🔸ออน
+╠🔸แอด
+╠🔸/ลบรัน
+╠🔸เขย่า
+╠🔸ยกค้าง
+╠🔸ผส
+╠🔸เพื่อน
+╠🔸เชคดำ
+╠🔸ล้างดำ
+╠🔸เทศบาลมา
+╠🔸ดับ
+╠🔸ชื่อ: ข้อความ ➠เปลี่ยนชื่อ
+╠🔸ตัส: ข้อความ ➠เปลี่ยนตัส
+╚══〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
     return helpSet 
 
 def helpkicker():
-    helpKicker = """〘คำสั่งค้นหา〙
-☃พูด ข้อความ ➠ สั่งสิริพูด
-☃ยูทูป ข้อความ ➠ ค้นหาในยูทูป
-☃เขียน ข้อความ ➠ เขียน
-☃รูปมา ข้อความ ➠ ส่งรูป
-☃กาตูน ข้อความ ➠ ลงรูป"""
+    helpKicker = """╔══〘คำสั่งค้นหา〙══
+╠พูด ข้อความ ➠ สั่งสิริพูด
+╠ยูทูป ข้อความ ➠ ค้นหาในยูทูป
+╠เขียน ข้อความ ➠ เขียน
+╠รูปมา ข้อความ ➠ ส่งรูป
+╠กาตูน ข้อความ ➠ ลงรูป
+╚══〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
     return helpKicker
     
 def helpsetting():
-    helpSetting = """〘คำสั่งกลุ่ม〙
-🎭กลุ่ม ➠ ข้อมูลกลุ่ม
-🎭ไอดีกลุ่ม ➠ไอดีห้อง
-🎭ชื่อกลุ่ม ➠ ชื่อห้อง
-🎭ชื่อกลุ่ม ข้อความ ➠ เปลี่ยนชื่อห้อง
-🎭รูปกลุ่ม ➠ รูปกลุ่ม
-🎭บ้าน ➠ ดูรายชื่อกลุ่ม
-🎭สมาชิก ➠รายชื่อคนในห้อง
-🎭เปิดลิ้ง ➠ เปิดลิ้งกลุ่ม
-🎭ปิดลิ้ง ➠ ปิดลิ้งกลุ่ม
-🎭ลิ้ง ➠ ขอลิ้งกลุ่ม
-🎭แทค ➠ แทคคนในกลุ่ม
-🎭ตั้งเวลา ➠ ตั้งเวลา
-🎭ปิดเวลา ➠ ปิดเวลา
-🎭รีเวลา ➠ ลบเวลาคนอ่าน
-🎭อ่าน ➠ ดูคนอ่าน
-🎭#ประกาศ: ข้อความ ➠ ส่งแชททุกห้อง"""
+    helpSetting = """╔══〘คำสั่งกลุ่ม〙══════
+╠🎭กลุ่ม ➠ ข้อมูลกลุ่ม
+╠🎭ไอดีกลุ่ม ➠ไอดีห้อง
+╠🎭ชื่อกลุ่ม ➠ ชื่อห้อง
+╠🎭ชื่อกลุ่ม ข้อความ ➠ เปลี่ยนชื่อห้อง
+╠🎭เปลี่ยนรูปกลุ่ม ➠ เปลี่ยนรูปห้อง
+╠🎭รูปกลุ่ม ➠ รูปกลุ่ม
+╠🎭บ้าน ➠ ดูรายชื่อกลุ่ม
+╠🎭สมาชิก ➠รายชื่อคนในห้อง
+╠🎭เปิดลิ้ง ➠ เปิดลิ้งกลุ่ม
+╠🎭ปิดลิ้ง ➠ ปิดลิ้งกลุ่ม
+╠🎭ลิ้ง ➠ ขอลิ้งกลุ่ม
+╠🎭แทค ➠ แทคคนในกลุ่ม
+╠🎭ตั้งเวลา ➠ ตั้งเวลา
+╠🎭ปิดเวลา ➠ ปิดเวลา
+╠🎭รีเวลา ➠ ลบเวลาคนอ่าน
+╠🎭อ่าน ➠ ดูคนอ่าน
+╠🎭#ประกาศ: ข้อความ ➠ ส่งแชททุกห้อง
+╚══〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙══"""
     return helpSetting
 
 def helptexttospeech():
-    helpTextToSpeech =   """〘คำสั่งเลียนแบบ〙
-⚓เลียนแบบ on/off 
-⚓เลียนแบบ 
-⚓เพิ่มเลียนแบบ (@) 
-⚓ลบเลียนแบบ (@)"""
+    helpTextToSpeech =   """╔══〘คำสั่งเลียนแบบ〙══
+╠😂เลียนแบบ on/off 
+╠😂เลียนแบบ 
+╠😂เพิ่มเลียนแบบ (@) 
+╠😂ลบเลียนแบบ (@)
+╚══〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
     return helpTextToSpeech
     
 def helplanguange():
-    helpLanguange =    """〘คำสั่งล่องหน〙
-🌟!แทค
-🌟!มิด
-🌟!คท"""
+    helpLanguange =    """╔══〘คำสั่งล่องหน〙══
+╠😱!แทค
+╠😱!มิด
+╠😱!คท
+╚══〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
     return helpLanguange
 #==============================================================================#
 def lineBot(op):
@@ -610,7 +620,7 @@ def lineBot(op):
                     line.sendMessage(to, "████████▒... 80.0%")
                     line.sendMessage(to, "█████████▒... 90.0%")
                     line.sendMessage(to, "███████████..100.0%")
-                    line.sendMessage(to, "👍〘บอทยังอยู่ครับท่าน〙👍")
+                    line.sendMessage(to, "👍〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙👍")
                 elif msg.text.lower() == ".ออน":
                     line.sendMessage(msg.to,(str(datetime.datetime.now() - start_runtime)[:-7].split(" days, ")[0]+" วัน "+str(datetime.datetime.now() - start_runtime)[:-7].split(" days, ")[1].split(":")[0]+" ชั่วโมง " if "days" in str(datetime.datetime.now() - start_runtime) else str(datetime.datetime.now() - start_runtime)[:-7].split(" day, ")[0]+" วัน "+str(datetime.datetime.now() - start_runtime)[:-7].split(" day, ")[1].split(":")[0]+" ชั่วโมง " if "day" in str(datetime.datetime.now() - start_runtime) else str(datetime.datetime.now() - start_runtime)[:-7].split(":")[0]+" ชั่วโมง ")+str(datetime.datetime.now() - start_runtime)[:-7].split(":")[1]+" นาที "+str(datetime.datetime.now() - start_runtime)[:-7].split(":")[2]+" วินาที")               
                 elif "คท " in msg.text:
@@ -721,7 +731,7 @@ def lineBot(op):
                     timeNow = time.time()
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
-                    line.sendMessage(to, "〘Ŧ€₳M↬฿❂Ŧ↬ȾɆ₦₮Ɑ₡ŁɆ 🇹🇭 〙\n""ระยะเวลาการทำงานของบอท {}".format(str(runtime)))
+                    line.sendMessage(to, "〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙\n""ระยะเวลาการทำงานของบอท {}".format(str(runtime)))
                 elif text.lower() == 'บอท':
                     try:
                         arr = []
@@ -731,14 +741,14 @@ def lineBot(op):
                         grouplist = line.getGroupIdsJoined()
                         contactlist = line.getAllContactIds()
                         blockedlist = line.getBlockedContactIds()
-                        ret_ = "╔══[ byphu ]" 
+                        ret_ = "╔══[ ข้อมูลส่วนตัว ]" 
                         ret_ += "\n╠❂☞ ชื่อ ═ {}".format(contact.displayName)
                         ret_ += "\n╠❂☞ กลุ่ม ═ {}".format(str(len(grouplist)))
                         ret_ += "\n╠❂☞ เพื่อน ═ {}".format(str(len(contactlist)))
                         ret_ += "\n╠❂☞ บล็อค ═ {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[สถานะ]"
                         ret_ += "\n╠❂☞ ผู้สร้าง ═ {}".format(creator.displayName)
-                        ret_ += "\n╚══[ byphu ]"
+                        ret_ += "\n╚══[ 〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙 ]"
                         line.sendContact(to, owner)
                         line.sendMessage(to, str(ret_))
                     except Exception as e:
@@ -746,7 +756,7 @@ def lineBot(op):
 #==============================================================================#
                 elif text.lower() == 'เชคค่า':
                     try:
-                        ret_ = "╔════[ byphu ]═════┓"
+                        ret_ = "╔════[ สเตตัส ]═════┓"
                         if settings["autoBlock"] == True: ret_ += "\n╠❂☞ รับบล็อคออโต้ ✔"
                         else: ret_ += "\n╠❂☞ รับบล็อคออโต้    ✘ "
                         if settings["autoJoin"] == True: ret_ += "\n╠❂☞ เข้าห้องออโต้ ✔"
@@ -773,7 +783,7 @@ def lineBot(op):
                         else: ret_ += "\n╠❂☞ แสดงภาพคนแทค ✘ "
                         if settings["detectMention"] == True: ret_ += "\n╠❂☞ แสดงติ้กคนแทค ✔"
                         else: ret_ += "\n╠❂☞ แสดงติ้กคนแทค ✘ "
-                        ret_ += "\n╚════[ byphu ]═════┛"
+                        ret_ += "\n╚════[HARDLINE]═════┛"
                         line.sendMessage(to, str(ret_))
                     except Exception as e:
                         line.sendMessage(msg.to, str(e))
@@ -867,16 +877,16 @@ def lineBot(op):
                     line.sendText(msg.to,"ข้อความกล่าวถึงคนออกล่าสุดคือ\n\n" + str(settings["man2"]))
                 elif msg.text in ["เชคแทค","เช็คแทค"]:
                     line.sendText(msg.to,"ข้อความกล่าวถึงคนแทคล่าสุดคือ\n\n" + str(settings["man3"]))    
-                elif text.lower() == 'kt on':
+                elif text.lower() == 'เปิดเตะแทค':
                     settings["kickMention"] = True
                     line.sendMessage(to, "👍เปิดระบบเตะคนแทค👎")
-                elif text.lower() == 'kt off':
+                elif text.lower() == 'ปิดเตะแทค':
                     settings["kickMention"] = False
                     line.sendMessage(to, "👎ปิดระบบเตะคนแทค👎")     
                 elif text.lower() == 'เปลี่ยนดิส':
                      settings["changePictureProfile"] = True
                      line.sendMessage(to, "👍ส่งรูปมา👎")
-                elif text.lower() == 'เปลี่ยนกลุ่ม': 
+                elif text.lower() == 'เปลี่ยนรูปกลุ่ม': 
                      settings["changeGroupPicture"] = True
                      line.sendMessage(to, "👍ส่งรูปมา👎")      
 #==============================================================================#
@@ -1125,14 +1135,14 @@ def lineBot(op):
                         gTicket = "https://line.me/R/ti/g/{}".format(str(line.reissueGroupTicket(group.id)))
                     path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
                     ret_ = "╔══[ Group Info ]"
-                    ret_ += "\n╠ Nama Group : {}".format(str(group.name))
-                    ret_ += "\n╠ ID Group : {}".format(group.id)
-                    ret_ += "\n╠ Pembuat : {}".format(str(gCreator))
-                    ret_ += "\n╠ Jumlah Member : {}".format(str(len(group.members)))
-                    ret_ += "\n╠ Jumlah Pending : {}".format(gPending)
-                    ret_ += "\n╠ Group Qr : {}".format(gQr)
-                    ret_ += "\n╠ Group Ticket : {}".format(gTicket)
-                    ret_ += "\n╚══[ Finish ]"
+                    ret_ += "\n╠ ชื่อ : {}".format(str(group.name))
+                    ret_ += "\n╠ ID  : {}".format(group.id)
+                    ret_ += "\n╠ คนสร้าง : {}".format(str(gCreator))
+                    ret_ += "\n╠ สมาชิก : {}".format(str(len(group.members)))
+                    ret_ += "\n╠ ค้างเชิญ : {}".format(gPending)
+                    ret_ += "\n╠ Qr : {}".format(gQr)
+                    ret_ += "\n╠ ลิ้ง : {}".format(gTicket)
+                    ret_ += "\n╚══[ 〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙 ]"
                     line.sendMessage(to, str(ret_))
                     line.sendImageWithURL(to, path)
                 elif text.lower() == 'สมาชิก':
