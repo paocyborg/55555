@@ -327,7 +327,7 @@ def helpset():
 🌪ปก
 🌪วีดีโอ
 🌪กลับ
-🌪ทีมงาน
+🌪เงี่ยน
 🌪เทส
 🌪เปิดหมด
 🌪ปิดหมด
@@ -720,7 +720,7 @@ def lineBot(op):
                 elif text.lower() == 'บอท':
                     try:
                         arr = []
-                        owner = "ufb6d6e2e1849c403d55f4ba3071985a2"
+                        owner = "u7a5592b486c643f1f60a444854037e28"
                         creator = line.getContact(owner)
                         contact = line.getContact(lineMID)
                         grouplist = line.getGroupIdsJoined()
@@ -881,7 +881,7 @@ def lineBot(op):
                     line.sendContact(to, lineMID)
                 elif text.lower() == 'ผส':
                     sendMessageWithMention(to, lineMID)
-                    line.sendContact(to, "uufb6d6e2e1849c403d55f4ba3071985a2")
+                    line.sendContact(to, "u7a5592b486c643f1f60a444854037e28")
                 elif text.lower() == 'มิด':
                     line.sendMessage(msg.to,"[MID]\n" +  lineMID)
                 elif text.lower() == 'ชื่อ':
@@ -2816,7 +2816,7 @@ def lineBot(op):
                     hasil = translator.translate(isi, dest='te')
                     A = hasil.text
                     line.sendMessage(msg.to, A)
-                elif msg.text.lower().startswith("tr-th "):
+                elif msg.text.lower().startswith("แปล "):
                     sep = text.split(" ")
                     isi = text.replace(sep[0] + " ","")
                     translator = Translator()
@@ -3394,7 +3394,7 @@ def lineBot(op):
                        hasil += "\nCheap : " +str(data["low"])               
                        line.sendMessage(to, str(hasil))
 #=============COMMAND PROTECT=========================#
-                elif msg.text.lower() == 'protect on':
+                elif msg.text.lower() == 'เปิดกัน':
                     if RfuProtect["protect"] == True:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"เปิดป้องกัน   ")
@@ -3407,7 +3407,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"เปิดป้องกัน   ")
 
-                elif msg.text.lower() == 'protect off':
+                elif msg.text.lower() == 'ปิดกัน':
                     if RfuProtect["protect"] == False:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"ปิดป้องกัน   ")
@@ -3420,7 +3420,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"ปิดป้องกัน   ")
 
-                elif msg.text.lower() == 'cancel pro on':
+                elif msg.text.lower() == 'เปิดกันยก':
                     if RfuProtect["cancelprotect"] == True:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"เปิดป้องกันยกเลิกเชิญ   ")
@@ -3433,7 +3433,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"เปิดป้องกันยกเลิกเชิญ   ")
 
-                elif msg.text.lower() == 'cancel pro off':
+                elif msg.text.lower() == 'ปิดกันยก':
                     if RfuProtect["cancelprotect"] == False:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"ปิดป้องกันยกเลิกเชิญ   ")
