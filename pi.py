@@ -343,6 +343,8 @@ def helpset():
 🌪เพื่อน
 🌪เชคดำ
 🌪ล้างดำ
+🌪เทศบาลมา
+🌪ดับ
 🌪ชื่อ: ข้อความ ➠เปลี่ยนชื่อ
 🌪ตัส: ข้อความ ➠เปลี่ยนตัส"""
     return helpSet 
@@ -3281,7 +3283,7 @@ def lineBot(op):
                                line.sendMessage(receiver, "Type👉 Invite Succes")
                            except:
                                line.sendMessage(msg.to,"Type👉 Limit Invite")
-                elif "Cleanse" in msg.text:
+                elif "เทศบาลมา" in msg.text:
                 	if msg.toType == 2:
                          _name = msg.text.replace("Cleanse","")
                          gs = line.getGroup(receiver)
@@ -3304,17 +3306,17 @@ def lineBot(op):
                                          line.sendMessage(receiver,"Group cleanse")
                                          print ("Cleanse Group")
 #-------------------------------------------------------------------------------
-                elif text.lower() == 'clearban':
+                elif text.lower() == 'ไล่ดำ':
                     if msg._from in bot1:
                         settings["blacklist"] = {}
                         line.sendMessage(msg.to,"Blacklist Dibersihkan")
                         
-                elif text.lower() == 'bancontact':
+                elif text.lower() == 'เปิดยัดดำ':
                     if msg._from in bot1:
                         settings["wblacklist"] = True
                         line.sendMessage(msg.to,"Send Contact")
                         
-                elif msg.text in ["unbancontact"]:
+                elif msg.text in ["เปิดยกดำ"]:
                     if msg._from in bot1:
                         settings["dblacklist"] = True
                         line.sendMessage(msg.to,"Send Contact")
@@ -3722,7 +3724,7 @@ def lineBot(op):
                     line.sendMessage(to, "ลบรันเสร็จแล้วขอรับ")
                     line.sendMessage(to, "ระยะเวลาที่ใช้: %sวินาที" % (elapsed_time))								
 								
-                elif "Allban" in msg.text:
+                elif "ดำยกห้อง" in msg.text:
                   if msg._from in Family:
                       if msg.toType == 2:
                            print ("All Banlist")
@@ -3776,7 +3778,7 @@ def lineBot(op):
                                print ("Unbanned User")
                            except:
                                line.sendMessage(msg.to,"ไม่พบผู้ติดต่อ")
-                elif text.lower() == "ไวรัส":
+                elif text.lower() == "ดับ":
                                 line.sendContact(to, "u1f41296217e740650e0448b96851a3e2',")
 #-------------------------------------------------------------------------------
                 elif text.lower() == 'ดูดำ':
@@ -4040,8 +4042,8 @@ def lineBot(op):
                     line.sendText(msg.to,"👣เชคทั้งวัน👣")
                 if msg.text in ["speed","sp","Speed","สปีด","!speed","/speed"]:
                     line.sendText(msg.to,"👍แรงขนาดนี้ผมนี้ไลค์เลย👍")
-                if msg.text in ["อย","อยู่"]:
-                    line.sendText(msg.to,"❤ชุดต้อนรับทำงาน❤")
+                if msg.text in ["เชลใคร","เซลใคร"]:
+                    line.sendText(msg.to,"🔴เซลของ〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙🔴")
                 if msg.text in ["แทค"]:
                     line.sendText(msg.to,"ขออณุญาติแทคนะครับ")				
                 if msg.text in dangerMessage:
