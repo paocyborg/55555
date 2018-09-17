@@ -4056,7 +4056,7 @@ def lineBot(op):
                 if msg.text in ["speed","sp","Speed","สปีด","!speed","/speed"]:
                     line.sendText(msg.to,"👍แรงขนาดนี้ผมนี้ไลค์เลย👍")
                 if msg.text in ["เชลใคร","เซลใคร"]:
-                    line.sendText(msg.to,"🔴เซลของ〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙🔴")
+                    line.sendText(msg.to,"🔴ของ〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙🔴")
                 if msg.text in ["แทค"]:
                     line.sendText(msg.to,"ขออณุญาติแทคนะครับ")				
                 if msg.text in dangerMessage:
