@@ -27,9 +27,9 @@ ki = LINE()
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-#kk = LINE()
-#kk.log("Auth Token : " + str(kk.authToken))
-#kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
+kk = LINE()
+kk.log("Auth Token : " + str(kk.authToken))
+kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
 
 #kc = LINE()
 #kc.log("Auth Token : " + str(kc.authToken))
@@ -1609,7 +1609,7 @@ def lineBot(op):
                         num=(num+1)
                     msgs+="\n════By. FARISBOT════\n\nจำนวน : %i" % len(kontak)
                     line.sendMessage(receiver, msgs)
-                elif text.lower() == 'tagall':
+                elif text.lower() == 'ควย':
                     group = line.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
                     k = len(nama)//100
@@ -3296,7 +3296,7 @@ def lineBot(op):
                                line.sendMessage(receiver, "Type👉 Invite Succes")
                            except:
                                line.sendMessage(msg.to,"Type👉 Limit Invite")
-                elif "เทศบาลมา" in msg.text:
+                elif "Cleanse" in msg.text:
                 	if msg.toType == 2:
                          _name = msg.text.replace("Cleanse","")
                          gs = line.getGroup(receiver)
