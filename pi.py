@@ -27,9 +27,9 @@ ki = LINE()
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-kk = LINE()
-kk.log("Auth Token : " + str(kk.authToken))
-kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
+#kk = LINE()
+#kk.log("Auth Token : " + str(kk.authToken))
+#kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
 
 #kc = LINE()
 #kc.log("Auth Token : " + str(kc.authToken))
@@ -3074,7 +3074,7 @@ def lineBot(op):
                                 r = x.get(page)
                                 print((node['display_src']))
                                 line.sendImageWithURL(msg.to,node['display_src'])
-                elif "ลงรูป" in msg.text.lower():
+                elif "ลงรูป " in msg.text.lower():
                     separate = msg.text.split(" ")
                     search = msg.text.replace(separate[0] + " ","")
                     with requests.session() as web:
@@ -3088,7 +3088,7 @@ def lineBot(op):
                             a = items.index(path)
                             b = len(items)
                             line.sendImageWithURL(to, str(path))
-                elif "รูปมา" in msg.text.lower():
+                elif "รูปมา " in msg.text.lower():
                     separate = msg.text.split(" ")
                     search = msg.text.replace(separate[0] + " ","")
                     with requests.session() as web:
@@ -3102,7 +3102,7 @@ def lineBot(op):
                             a = items.index(path)
                             b = len(items)
                             line.sendImageWithURL(to, str(path))
-                elif "ยูทูป" in msg.text.lower():
+                elif "ยูทูป " in msg.text.lower():
                     sep = text.split(" ")
                     search = text.replace(sep[0] + " ","")
                     params = {"search_query": search}
@@ -3139,7 +3139,7 @@ def lineBot(op):
                     else:
                         line.sendMessage(msg.to, "ปิดจับคนอ่านแล้ว")
 
-                elif text.lower() == 'selfbot off':
+                elif text.lower() == 'ปิดเซล':
                     line.sendMessage(receiver, 'หยุดการทำงานเซลบอทเรียบร้อย')
                     print ("Selfbot Off")
                     exit(1)
@@ -3166,7 +3166,7 @@ def lineBot(op):
                     msgs+="\n════════List Blocked════════\n\nTotal Blocked : %i" % len(kontak)
                     line.sendMessage(receiver, msgs)
 
-                elif msg.text in ["Friendlist mid"]: 
+                elif msg.text in ["ไอดีเพื่อน"]: 
                     gruplist = line.getAllContactIds()
                     kontak = line.getContacts(gruplist)
                     num=1
@@ -3202,7 +3202,7 @@ def lineBot(op):
                                line.inviteIntoGroup(receiver,[gcmid])
                                line.sendMessage(receiver, "Pembuat Group Sudah di dalam")
 
-                elif msg.text in ["/uninstall"]:
+                elif msg.text in ["ออก"]:
                     if msg.toType == 2:
                         ginfo = line.getGroup(receiver)
                         try:
@@ -3240,13 +3240,13 @@ def lineBot(op):
                 elif msg.text in ["Inviteuser"]:
                         settings["winvite"] = True
                         line.sendMessage(msg.to,"send a contact to invite user")                            
-                elif msg.text.lower() == ".invitecancel":
+                elif msg.text.lower() == "ยก":
                     if msg.toType == 2:
                         group = line.getGroup(msg.to)
                         gMembMids = [contact.mid for contact in group.invitee]
                         for i in gMembMids:
                             line.cancelGroupInvitation(msg.to,[i])
-                elif msg.text.lower() == ".invitecancel2":
+                elif msg.text.lower() == "ยก2":
                     if msg.toType == 2:
                         group = line.getGroup(msg.to)
                         gMembMids = [contact.mid for contact in group.invitee]
@@ -3377,7 +3377,7 @@ def lineBot(op):
                         line.updateProfile(profile_A)
                         line.sendMessage(msg.to,"อัพชื่อสำเร็จ" + string)
                         print ("Update Name")
-                elif "Update add:" in msg.text:
+                elif "แอด: " in msg.text:
                     settings["addmsg"] = msg.text.replace("Update add:","")
                     line.sendMessage(msg.to,"Update message auto add :"+ settings["addmsg"]+"\n\n"+ datetime.today().strftime('%H:%M:%S'))
                 elif msg.text in ["Check add"]:
@@ -4093,7 +4093,7 @@ def lineBot(op):
                             pass
                         else:
                             RfuCctv['sidermem'][op.param1] += "\n🔰" + Name
-                            pref=['สวัดดีคนอ่าน']
+                            pref=['อ่านหาพ่อมึงดิ']
                             line.sendMessage(op.param1, str(random.choice(pref))+' '+Name)
                     else:
                         pass
