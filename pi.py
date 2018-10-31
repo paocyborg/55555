@@ -4093,7 +4093,7 @@ def lineBot(op):
                             pass
                         else:
                             RfuCctv['sidermem'][op.param1] += "\n🔰" + Name
-                            pref=['อ่านหาพ่อมึงดิ']
+                            pref=['มัวแต่อ่านทำไมห้ะออกมาคุยดิเห้ย']
                             line.sendMessage(op.param1, str(random.choice(pref))+' '+Name)
                     else:
                         pass
