@@ -1142,7 +1142,7 @@ def lineBot(op):
                     ret_ += "\n╠ ค้างเชิญ : {}".format(gPending)
                     ret_ += "\n╠ Qr : {}".format(gQr)
                     ret_ += "\n╠ ลิ้ง : {}".format(gTicket)
-                    ret_ += "\n╚══[ 〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙 ]"
+                    ret_ += "\n╚══[ 〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙 ]"
                     line.sendMessage(to, str(ret_))
                     line.sendImageWithURL(to, path)
                 elif text.lower() == 'สมาชิก':
@@ -3487,7 +3487,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"ปิดป้องกันยกเชิญ   ")
 
-                elif msg.text.lower() == 'link pro on':
+                elif msg.text.lower() == 'เปิดกันลิ้ง':
                     if RfuProtect["linkprotect"] == True:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"เปิดป้องกันลิ้ง   ")
@@ -3500,7 +3500,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"เปิดป้องกันลิ้ง   ")
 
-                elif msg.text.lower() == 'link pro off':
+                elif msg.text.lower() == 'ปิดกันลิ้ง':
                     if RfuProtect["linkprotect"] == False:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"ปิดป้องกันลิ้ง   ")
@@ -3539,7 +3539,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"ปิดป้องกันสมาชิก   ")
 
-                elif msg.text.lower() == 'join pro on':
+                elif msg.text.lower() == 'เปิดกันคนเข้า':
                     if RfuProtect["Protectjoin"] == True:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"เปิดป้องกันคนเข้า   ")
@@ -3552,7 +3552,7 @@ def lineBot(op):
                         else:
                             line.sendMessage(msg.to,"เปิดป้องกันคนเข้า   ")
 
-                elif msg.text.lower() == 'join pro off':
+                elif msg.text.lower() == 'ปิดกันคนเข้า':
                     if RfuProtect["Protectjoin"] == False:
                         if settings["lang"] == "JP":
                             line.sendMessage(msg.to,"ปิดป้องกันคนเข้า   ")
@@ -4056,7 +4056,7 @@ def lineBot(op):
                 if msg.text in ["speed","sp","Speed","สปีด","!speed","/speed"]:
                     line.sendText(msg.to,"👍แรงขนาดนี้ผมนี้ไลค์เลย👍")
                 if msg.text in ["เชลใคร","เซลใคร"]:
-                    line.sendText(msg.to,"🔴ของ〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙🔴")
+                    line.sendText(msg.to,"🐵ของ〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙🐵")
                 if msg.text in ["แทค"]:
                     line.sendText(msg.to,"ขออณุญาติแทคนะครับ")				
                 if msg.text in dangerMessage:
