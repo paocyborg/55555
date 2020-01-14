@@ -1628,13 +1628,13 @@ def lineBot(op):
                     nama = [contact.mid for contact in group.members]
                     k = len(nama)//100
                     for a in range(k+1):
-                        txt = ''
+                        txt = u''
                         s=0
                         b=[]
                         for i in group.members[a*100 : (a+1)*100]:
                             b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
                             s += 7
-                            txt += '@Alin \n'
+                            txt += u'@Alin \n'
                         line.sendMessage(to, text=txt, contentMetadata={'MENTION': json.dumps({'MENTIONEES':b})}, contentType=0)
                         line.sendMessage(to, "ทั้งหมด {} คน".format(str(len(nama))))  
                 elif text.lower() == 'ตั้งเวลา':
