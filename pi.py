@@ -103,7 +103,7 @@ settings = {
     "man1":"ตั้งข้อความ",
     "man2":"ตั้งข้อความ",
     "man3":"ตั้งข้อความ",
-    "message":"บัญชีนี้ได้การป้องกันโดย ♻TEAM🔘BOT🔘HARDLINE♻  ระบบได้ทำการบล็อคคุณอัตโนมัติ\nติดต่อเชลบอทคอมเม้นไว้เลยคับ",
+    "message":"บัญชีนี้ได้การป้องกันโดย 🐒TEAM👹BOT👹ചัঐのุঞ🐒  ระบบได้ทำการบล็อคคุณอัตโนมัติ\nติดต่อเชลบอทคอมเม้นไว้เลยคับ",
     "comment":"Thanks for add me",
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
@@ -256,7 +256,7 @@ def sendMessageWithMention(to, lineMID):
         logError(error)
  
 def myhelp():
-    myHelp = """╔〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙〙 
+    myHelp = """╔〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙〙 
 ╠🇹🇭คำสั่ง=คำสั่ง
 ╠🇹🇭คำสั่ง2=คำสั่งเชล
 ╠🇹🇭คำสั่ง3=คำสั่งกับแทค
@@ -265,7 +265,7 @@ def myhelp():
 ╠🇹🇭คำสั่ง6=คำสั่งกลุ่ม
 ╠🇹🇭คำสั่ง7=คำสั่งเลียนแบบ
 ╠🇹🇭คำสั่ง8=คำสั่งล่องหน
-╚〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
+╚〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙"""
     return myHelp
 
 def listgrup():
@@ -300,7 +300,7 @@ def listgrup():
 ╠เช็คแทค 👉 เช็คแทค
 ╠ต้อนรับ  on👉 เปิดต้อนรับกับออก
 ╠ต้อนรับ  off👉 ปิดต้อนรับกับออก
-╚══〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙══"""
+╚══〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙══"""
     return listGrup
 
 def socmedia():
@@ -318,7 +318,7 @@ def socmedia():
 ⭐เตะ @ ➠ เตะด้วยแทค
 ⭐จุก @  ➠ เตะกลบแชท
 ⭐แบน @ ➠ แทคคนจะลงดำ
-〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
+〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙"""
     return socMedia
     
 def helpset():
@@ -354,7 +354,7 @@ def helpset():
 ╠🔸ดับ
 ╠🔸ชื่อ: ข้อความ ➠เปลี่ยนชื่อ
 ╠🔸ตัส: ข้อความ ➠เปลี่ยนตัส
-╚══〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
+╚══〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙"""
     return helpSet 
 
 def helpkicker():
@@ -364,7 +364,7 @@ def helpkicker():
 ╠เขียน ข้อความ ➠ เขียน
 ╠รูปมา ข้อความ ➠ ส่งรูป
 ╠กาตูน ข้อความ ➠ ลงรูป
-╚══〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
+╚══〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙"""
     return helpKicker
     
 def helpsetting():
@@ -386,7 +386,7 @@ def helpsetting():
 ╠🎭รีเวลา ➠ ลบเวลาคนอ่าน
 ╠🎭อ่าน ➠ ดูคนอ่าน
 ╠🎭#ประกาศ: ข้อความ ➠ ส่งแชททุกห้อง
-╚══〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙══"""
+╚══〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙══"""
     return helpSetting
 
 def helptexttospeech():
@@ -395,7 +395,7 @@ def helptexttospeech():
 ╠😂เลียนแบบ 
 ╠😂เพิ่มเลียนแบบ (@) 
 ╠😂ลบเลียนแบบ (@)
-╚══〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
+╚══〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙"""
     return helpTextToSpeech
     
 def helplanguange():
@@ -403,7 +403,7 @@ def helplanguange():
 ╠😱!แทค
 ╠😱!มิด
 ╠😱!คท
-╚══〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙"""
+╚══〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙"""
     return helpLanguange
 #==============================================================================#
 def lineBot(op):
@@ -620,7 +620,7 @@ def lineBot(op):
                     line.sendMessage(to, "████████▒... 80.0%")
                     line.sendMessage(to, "█████████▒... 90.0%")
                     line.sendMessage(to, "███████████..100.0%")
-                    line.sendMessage(to, "👍〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙👍")
+                    line.sendMessage(to, "👍〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙👍")
                 elif msg.text.lower() == ".ออน":
                     line.sendMessage(msg.to,(str(datetime.datetime.now() - start_runtime)[:-7].split(" days, ")[0]+" วัน "+str(datetime.datetime.now() - start_runtime)[:-7].split(" days, ")[1].split(":")[0]+" ชั่วโมง " if "days" in str(datetime.datetime.now() - start_runtime) else str(datetime.datetime.now() - start_runtime)[:-7].split(" day, ")[0]+" วัน "+str(datetime.datetime.now() - start_runtime)[:-7].split(" day, ")[1].split(":")[0]+" ชั่วโมง " if "day" in str(datetime.datetime.now() - start_runtime) else str(datetime.datetime.now() - start_runtime)[:-7].split(":")[0]+" ชั่วโมง ")+str(datetime.datetime.now() - start_runtime)[:-7].split(":")[1]+" นาที "+str(datetime.datetime.now() - start_runtime)[:-7].split(":")[2]+" วินาที")               
                 elif "คท " in msg.text:
@@ -731,7 +731,7 @@ def lineBot(op):
                     timeNow = time.time()
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
-                    line.sendMessage(to, "〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙\n""ระยะเวลาการทำงานของบอท {}".format(str(runtime)))
+                    line.sendMessage(to, "〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙\n""ระยะเวลาการทำงานของบอท {}".format(str(runtime)))
                 elif text.lower() == 'บอท':
                     try:
                         arr = []
@@ -748,7 +748,7 @@ def lineBot(op):
                         ret_ += "\n╠❂☞ บล็อค ═ {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[สถานะ]"
                         ret_ += "\n╠❂☞ ผู้สร้าง ═ {}".format(creator.displayName)
-                        ret_ += "\n╚══[ 〘 ♻TEAM🔘BOT🔘HARDLINE♻ 〙 ]"
+                        ret_ += "\n╚══[ 〘 🐒TEAM👹BOT👹ചัঐのุঞ🐒 〙 ]"
                         line.sendContact(to, owner)
                         line.sendMessage(to, str(ret_))
                     except Exception as e:
@@ -783,7 +783,7 @@ def lineBot(op):
                         else: ret_ += "\n╠❂☞ แสดงภาพคนแทค ✘ "
                         if settings["detectMention"] == True: ret_ += "\n╠❂☞ แสดงติ้กคนแทค ✔"
                         else: ret_ += "\n╠❂☞ แสดงติ้กคนแทค ✘ "
-                        ret_ += "\n╚════[HARDLINE]═════┛"
+                        ret_ += "\n╚════[🐒TEAM👹BOT👹ചัঐのุঞ🐒]═════┛"
                         line.sendMessage(to, str(ret_))
                     except Exception as e:
                         line.sendMessage(msg.to, str(e))
@@ -905,9 +905,9 @@ def lineBot(op):
                 elif text.lower() == 'ตัส':
                     me = line.getContact(lineMID)
                     line.sendMessage(msg.to,"[StatusMessage]\n" + me.statusMessage)
-#                elif text.lower() == 'ดิส':
-#                    me = line.getContact(lineMID)
-#                    line.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/" + me.pictureStatus)
+                elif text.lower() == 'ดิส':
+                    me = line.getContact(lineMID)
+                    line.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/" + me.pictureStatus)
                 elif text.lower() == 'วีดีโอ':
                     me = line.getContact(lineMID)
                     line.sendVideoWithURL(msg.to,"http://dl.profile.line-cdn.net/" + me.pictureStatus + "/vp")
